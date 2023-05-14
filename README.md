@@ -1,10 +1,18 @@
 # goddessfantasy-markdown2bbscode
 ![Snipaste_2023-05-14_23-35-12](https://github.com/kagangtuya-star/goddessfantasy-markdown2bbscode/assets/73411104/a80e3462-e96a-451d-b82d-e5fe62d636f9)
+
 一个将markdown转换为纯美苹果园论坛 bbscode的脚本
+# 效果图
 
-# 转换前
-转换后的内容见果园  https://www.goddessfantasy.net/bbs/index.php?topic=140265.0
+转换后的内容![This is a heading](https://github.com/kagangtuya-star/goddessfantasy-markdown2bbscode/assets/73411104/c295f2c3-0aa2-4490-85d4-7c21e8b575d4)
 
+![QQ图片20230514234525](https://github.com/kagangtuya-star/goddessfantasy-markdown2bbscode/assets/73411104/54e99eef-4d4a-4db6-8bb6-f2d8a088bae6)
+
+见果园  https://www.goddessfantasy.net/bbs/index.php?topic=140265.0
+
+
+
+# 样例
 这个样例包含了 Markdown 中的各种常见格式，可以用来测试 Markdown转换器的功能是否完备。
 
 # 标题
