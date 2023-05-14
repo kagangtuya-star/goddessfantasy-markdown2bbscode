@@ -1,0 +1,2 @@
+# goddessfantasy-markdown2bbscode
+一个将markdown转换为纯美苹果园论坛 bbscode的脚本
