@@ -1,6 +1,6 @@
 # goddessfantasy-markdown2bbscode
-一个将markdown转换为纯美苹果园论坛 bbscode的脚本
 ![Snipaste_2023-05-14_23-35-12](https://github.com/kagangtuya-star/goddessfantasy-markdown2bbscode/assets/73411104/a80e3462-e96a-451d-b82d-e5fe62d636f9)
+一个将markdown转换为纯美苹果园论坛 bbscode的脚本
 
 # 转换前
 转换后的内容见果园  https://www.goddessfantasy.net/bbs/index.php?topic=140265.0
