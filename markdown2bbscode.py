@@ -19,6 +19,8 @@ def markdown_to_bbscode(markdown_text):
     markdown_text = re.sub(r'^\d+\. (.*)$', '[list type=decimal]\n[li]\\1[/li]\n[/list]', markdown_text,
                            flags=re.MULTILINE)
     # 将各种 Markdown 语法转换为对应的 BBSCode 标签
+    markdown_text = re.sub(r'!\[(.*?)\]\((.*?)\)', '[img]\\2[/img]', markdown_text)
+    markdown_text = re.sub(r'\[(.*?)\]\((.*?)\)', '[url=\\2]\\1[/url]', markdown_text)
     markdown_text = re.sub(r'^# (.*)$', '[size=6][b]\\1[/b][/size]\n', markdown_text, flags=re.MULTILINE)
     markdown_text = re.sub(r'^## (.*)$', '[size=5][b]\\1[/b][/size]\n', markdown_text, flags=re.MULTILINE)
     markdown_text = re.sub(r'^### (.*)$', '[size=4][b]\\1[/b][/size]\n', markdown_text, flags=re.MULTILINE)
@@ -32,7 +34,6 @@ def markdown_to_bbscode(markdown_text):
     markdown_text = re.sub(r'~~(.*?)~~', '[s]\\1[/s]', markdown_text)
     markdown_text = re.sub(r'```([^`]*)```', '[code]\\1[/code]', markdown_text)
     markdown_text = re.sub(r'\n\*\s(.*)$', '[*] \\1', markdown_text, flags=re.MULTILINE)
-    markdown_text = re.sub(r'<(https?://.*?)>', '[url]\\1[/url]', markdown_text)
     markdown_text = re.sub(r'!\[(.*?)\]\((.*?)\)', '[img]\\2[/img]', markdown_text)
     markdown_text = re.sub(r'\n-{3,}', '\n[hr]', markdown_text)
 
